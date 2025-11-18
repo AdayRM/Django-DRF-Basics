@@ -1,3 +1,20 @@
 {
-  "python.defaultInterpreterPath": "env/bin/python"
+  "i18n-ally.localesPaths": [
+    "env/lib/python3.13/site-packages/rest_framework/locale",
+    "env/lib/python3.13/site-packages/django/conf/locale",
+    "env/lib/python3.13/site-packages/django/contrib/messages",
+    "env/lib/python3.13/site-packages/django/contrib/admin/locale",
+    "env/lib/python3.13/site-packages/django/contrib/auth/locale",
+    "env/lib/python3.13/site-packages/django/contrib/admindocs/locale",
+    "env/lib/python3.13/site-packages/django/contrib/contenttypes/locale",
+    "env/lib/python3.13/site-packages/django/contrib/flatpages/locale",
+    "env/lib/python3.13/site-packages/django/contrib/humanize/locale",
+    "env/lib/python3.13/site-packages/django/contrib/gis/locale",
+    "env/lib/python3.13/site-packages/django/contrib/redirects/locale",
+    "env/lib/python3.13/site-packages/django/contrib/sessions/locale",
+    "env/lib/python3.13/site-packages/django/contrib/postgres/locale",
+    "env/lib/python3.13/site-packages/django/contrib/sites/locale",
+    "env/lib/python3.13/site-packages/rest_framework/templates/rest_framework/docs/langs"
+  ],
+  "autopep8.args": ["--max-line-length", "200"]
 }
